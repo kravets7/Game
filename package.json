@@ -1,0 +1,15 @@
+{
+  "name": "Game",
+  "version": "0.8.2",
+  "description": "",
+  "main": "game.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kravets7",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

@@ -77,20 +77,7 @@ var King = {
                 console.log(opponent.name + ' бореться до кінця. Здоров\'я: ' + opponent.health);
             };
         };
-    }/*,
-    scan: function() {
-        for (var k in persons) {
-            if (k.name != this.name) {
-                var dis = extras.distance(this.position, k.position);
-                if (dis <= this.survey) {
-                    concole.log('У полі зору гравець: ' + k.name + 'Щас буде махач!');
-                    this.fight(k);
-                } else {
-                    concole.log('У полі зору нікого не видно');
-                };
-            };
-        };
-    }*/
+    }
 };
 
 module.exports = King;
